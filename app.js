@@ -14,7 +14,7 @@ app.get("/", function(req, res) {
 
 // catch user info
 app.post("/", function(req, res) {
-    const appid = "2d5d89640785dfedba8336dcd2cf48b9";
+    const appid = "";
     // Get user location input {cityName => input tag --> name}
     var city = req.body.cityName;
     var units = "metric";
